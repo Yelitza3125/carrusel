@@ -45,6 +45,7 @@ var target = 0;
     };
 
 
+    /* Función para cambiar las imágenes con el teclado */
     $(document).keyup(function arrow(event) {
         var keyCode = event.which;
         console.log(keyCode);
